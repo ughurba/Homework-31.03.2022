@@ -5,12 +5,6 @@ namespace Homework_30._03._2022.Models
     public class Group
     {
 
-        //- AddStudent() - parametr olaraq Student obyekti qəbul edir və gələn student obyektini Group class-ında
-        //olan Students arrayinə əlavə edir əgər arrayin uzuluğu StudentLimit-i keçirsə əlavə etməməlidi.
-        //- GetStudent() - parametr olaraq nullable int tipindən bir id dəyəri alacaq və həmin id-li Student obyektini tapıb geriyə qaytaracaq.
-        //- GetAllStudents() - geriyə Student arrayi qaytaracaq.
-        //ps: GroupNo və StudentLimit dəyərləri olmadan Group Obyekti yaratmaq olmaz.
-
         private string _groupNo;
         public string GroupNo
         {
